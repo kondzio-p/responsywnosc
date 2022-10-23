@@ -1,0 +1,23 @@
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+    .container {
+        margin: 0px auto;
+        padding-left: 250px;
+        display: table; 
+      }
+  }
+
+
+.container {
+    text-align: center;
+    display: block;
+}
+
+.container div {
+    display: inline-block;
+    margin: 30px;
+    border: 1px black solid;
+    padding: 10px;
+}
